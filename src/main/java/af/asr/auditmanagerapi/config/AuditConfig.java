@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
  * The configuration class for Audit having package location to scan
  */
 @Configuration
-@EntityScan("io.mosip.kernel.auditmanager.entity")
-@ComponentScan("io.mosip.kernel.auditmanager")
+@EntityScan("af.asr.*")
+@ComponentScan("af.asr.*")
 public class AuditConfig {
 
 	/**
