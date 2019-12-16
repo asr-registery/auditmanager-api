@@ -1,5 +1,7 @@
 package af.asr.auditmanagerapi.util;
 
+import af.asr.auditmanagerapi.util.constant.AuditErrorCodes;
+
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
