@@ -1,15 +1,16 @@
 package af.asr.auditmanagerapi.impl;
 
 import af.asr.auditmanagerapi.entity.Audit;
+import af.asr.auditmanagerapi.exception.auditmanager.spi.AuditHandler;
 import af.asr.auditmanagerapi.repository.AuditRepository;
 import af.asr.auditmanagerapi.request.AuditRequestDto;
 import af.asr.auditmanagerapi.util.AuditUtils;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
  * Implementation of {@link AuditHandler} with function to write
- * {@link AuditRequestDto}
  */
 @Service
 public class AuditHandlerImpl implements AuditHandler<AuditRequestDto> {
