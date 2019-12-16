@@ -14,10 +14,6 @@ import java.time.LocalDateTime;
 
 /**
  * The Audit Entity class with required fields to be captured and recorded
- * 
- * @author Dharmesh Khandelwal
- * @since 1.0.0
- *
  */
 @Entity
 @Table(name = "app_audit_log", schema = "audit")

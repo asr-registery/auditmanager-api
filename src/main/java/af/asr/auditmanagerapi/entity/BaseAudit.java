@@ -11,10 +11,6 @@ import java.util.UUID;
 
 /**
  * Base class for {@link Audit} with {@link #uuid} and {@link #createdAt}
- * 
- * @author Dharmesh Khandelwal
- * @since 1.0.0
- *
  */
 @MappedSuperclass
 @Data
