@@ -2,10 +2,6 @@ package af.asr.auditmanagerapi.exception.auditmanager.spi;
 
 /**
  * Interface with function to write AuditRequest
- * 
- * @author Dharmesh Khandelwal
- * @since 1.0.0
- *
  */
 public interface AuditHandler<T> {
 

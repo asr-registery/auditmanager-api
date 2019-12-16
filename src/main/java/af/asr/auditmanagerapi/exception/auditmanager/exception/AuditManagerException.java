@@ -5,7 +5,6 @@ import af.asr.auditmanagerapi.exception.common.BaseUncheckedException;
 
 /**
  * Custom Exception Class in case of Handler Exception in Audit manager
- *
  */
 public class AuditManagerException extends BaseUncheckedException {
 

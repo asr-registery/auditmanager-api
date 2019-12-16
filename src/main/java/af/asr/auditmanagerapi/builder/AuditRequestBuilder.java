@@ -1,5 +1,6 @@
 package af.asr.auditmanagerapi.builder;
 
+import af.asr.auditmanagerapi.request.AuditRequestDto;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -7,13 +8,12 @@ import java.time.LocalDateTime;
 /**
  * The Audit request builder class is used to create new {@link AuditRequestDto}
  * with all required fields
- *
  */
 @Service
 public class AuditRequestBuilder {
 
 	/**
-	 * The {@link AuditRequestDto} instance
+	 * The {@link af.asr.auditmanagerapi.request.AuditRequestDto} instance
 	 */
 	private AuditRequestDto auditRequest = null;
 
